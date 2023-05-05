@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <p style="margin-bottom: 20px; font-size: large; color: white;">Guess a number between 1-100</p>
+        <div class="number">
+            <input id="number" type="text" placeholder="number">
+        </div>
+        <button id="buton" onclick="game()">guess</button>
+        <p id="correct" style="color: rgb(31, 208, 52); font-size: x-large;"></p>
+        <p id="notcorrect" style="color: rgb(255, 0, 0); font-size: large;"></p>
+        <p id="count" style="color: white; font-size: large;">Number of guesses: 0</p>
+        <p id="past" style="color: white; font-size: large;">Guessed numbers are: </p>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

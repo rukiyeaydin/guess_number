@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    padding: 50px;
+    background-color: #567;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    text-align: center;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.number input{
+    border: 2px solid gray;
+    width: 80px;
+    height: 60px;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    text-align: center; /* yazı kutuyu ortalasın */
+}
+#buton{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #567;
+    margin-bottom: 10px;
+}
+#buton:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#count{
+    margin: 10px;
+}
+#past{
+    margin: 10px;
+}
